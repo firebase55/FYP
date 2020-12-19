@@ -9,8 +9,24 @@
         android:layout_width="match_parent"
         app:cardBackgroundColor="#C9E9ED"
         app:cardCornerRadius="5dp"
-        android:layout_height="200dp">
+        android:layout_height="150dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="100dp"
+                android:text="Kinder Garten"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:textColor="#000"
 
+                android:layout_height="100dp">
+
+            </TextView>
+
+        </LinearLayout>
     </androidx.cardview.widget.CardView>
 
 
