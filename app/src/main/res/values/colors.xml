@@ -3,4 +3,16 @@
     <color name="colorPrimary">#6200EE</color>
     <color name="colorPrimaryDark">#3700B3</color>
     <color name="colorAccent">#03DAC5</color>
+    <color name="black_color">#000000</color>
+    <color name="purole_color">#3D0E91</color>
+    <color name="white_color">#ffffff</color>
+    <color name="orange">#FF5722</color>
+    <color name="white_off">#ECEBEB</color>
+    <color name="sky">#00BCD4</color>
+    <color name="yellow">#FACA3C</color>
+    <color name="dart_yellow">#FF9800</color>
+    <color name="green">#63B666</color>
+    <color name="greeen_light">#4EBDB3</color>
+    <color name="light_sky">#82D1F4</color>
+    <color name="light_black">#2B262B</color>
 </resources>

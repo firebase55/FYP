@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">FYP</string>
+    <string name="subject">Subject</string>
+    <string name="subject_text">Hy kids Your subjects</string>
+    <string name="generl_knowldge">generaly knowledge</string>
+    <string name="Game">Game</string>
+    <string name="cartoon">Cartoon</string>
+    <string name="Poems">Poems</string>
+    <string name="app_namee">Kindergarten</string>
+    <string name="moto">Best friends Motu and Patlu live in Furfuri Nagar and always fall into trouble.</string>
+    <string name="carton">It s all fun until someone gets… LOST! Talking Tom cheated in their game of hide and seek and now he</string>
 </resources>

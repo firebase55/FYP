@@ -2,6 +2,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.fyp">
 
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE " />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,14 +14,21 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Main_screenn"></activity>
-        <activity android:name=".MainActivity">
+        <activity android:name="com.example.text_to_speech.textTospeech_class">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.example.cartoon_videos.mainclass.mainclass" />
+        <activity android:name=".selectClassses.selectSubject" />
+        <activity android:name=".selectClass" />
+        <activity android:name=".subjects" />
+        <activity android:name=".poems" />
+        <activity android:name=".playVdeo" />
+        <activity android:name=".videoplayer" />
+        <activity android:name=".Main_screenn"></activity>
+        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>
